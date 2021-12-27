@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: stg_payments
+    description: Payments data
+    columns: 
+      - name: amount_usd
+        description: Amount is keept in cente. Here we converted to USD.
